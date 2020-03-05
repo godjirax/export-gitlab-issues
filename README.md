@@ -21,3 +21,6 @@ Just launch:
 ```
 node index.js
 ```
+
+## TODO
+- [ ] Use pagination to export all issues.
