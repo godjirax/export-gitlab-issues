@@ -1,0 +1,19 @@
+{
+  "name": "export-gitlab-issues",
+  "version": "1.0.0",
+  "description": "Export git labig issues from a repo to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.6.0",
+    "download-file": "^0.1.5",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "slug": "^2.1.1"
+  }
+}
