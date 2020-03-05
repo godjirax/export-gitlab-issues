@@ -180,8 +180,7 @@ const start = async () => {
 
   const bar1 = new cliProgress.SingleBar(
     {
-      format:
-        "CLI Progress | {bar} | {percentage}% || {value}/{total} Issues",
+      format: "CLI Progress | {bar} | {percentage}% || {value}/{total} Issues",
       barCompleteChar: "\u2588",
       barIncompleteChar: "\u2591",
       hideCursor: false
@@ -209,7 +208,7 @@ const changeUploadsLinks = (description, uploads) =>
   )
 
 const findUploads = description => {
-  const uploads = /\(\/uploads\/.*\)/g.exec(description)
+  const uploads = description.match(/\(\/uploads\/.*\)/g)
 
   if (uploads) {
     return Array.from(uploads).map(u => u.replace(/\(|\)/g, ""))
