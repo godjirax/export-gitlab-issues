@@ -181,7 +181,7 @@ const start = async () => {
   const bar1 = new cliProgress.SingleBar(
     {
       format:
-        "CLI Progress | {bar} | {percentage}% || {value}/{total} Issues || Speed: {speed}",
+        "CLI Progress | {bar} | {percentage}% || {value}/{total} Issues",
       barCompleteChar: "\u2588",
       barIncompleteChar: "\u2591",
       hideCursor: false
