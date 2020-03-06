@@ -24,3 +24,4 @@ node index.js
 
 ## TODO
 - [ ] Use pagination to export all issues.
+- [ ] Manage errors
